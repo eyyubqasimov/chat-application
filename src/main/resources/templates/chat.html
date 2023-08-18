@@ -258,16 +258,15 @@
 		    clear: both;
 		    height: 0;
 		}
-    
-	</style>
+
+    </style>
 </head>
 <body>
 <div class="container clearfix">
     <div class="people-list" id="people-list">
-      Welcome to ChatApp
-        <div class="search" style="color: lightgreen;">
-            [[${#request.userPrincipal.principal.fullName}]]
-            <br><br>
+        WELCOME [[${#request.userPrincipal.principal.fullName}]]
+        <div class="search">
+            <input id="userName" placeholder="Write your userName" type="text"/>
             <button onclick="registration()">Enter the chat</button>
             <button onclick="fetchAll()">Refresh</button>
         </div>
