@@ -1,7 +1,5 @@
 package net.javaguides.springboot.api;
-
 import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.handler.annotation.DestinationVariable;
 import org.springframework.messaging.handler.annotation.MessageMapping;
@@ -10,7 +8,6 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-
 import net.javaguides.springboot.entity.MessageEntity;
 import net.javaguides.springboot.entity.User;
 import net.javaguides.springboot.service.MessageRecorderServiceInterface;
